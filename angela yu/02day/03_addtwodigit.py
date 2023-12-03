@@ -1,0 +1,8 @@
+two_digit = input("Enter your two digit number here : \n ")
+# print(type(two_digit))
+# print(two_digit[0]+two_digit[1])
+new_digit_first = int(two_digit[0])
+new_digit_second = int(two_digit[1])
+# print(type(new_digit_first))
+# print(type(new_digit_second))
+print(new_digit_first+new_digit_second)
