@@ -1,6 +1,6 @@
 print("Welcome to love calculator!")
 name1 = input("what is your name ?\n")
-name2 = input("what is your name ?\n")
+name2 = input("what is your lover name ?\n")
 name = name1 + name2
 lower_name = name.lower()
 
@@ -21,4 +21,4 @@ if (score<10) or (score>90):
 elif score>=40 and score<=50:
     print(f"your score is {score},you are alright together")
 else:
-    print(f"your score is {score}") 
+    print(f"your love score is {score}") 
