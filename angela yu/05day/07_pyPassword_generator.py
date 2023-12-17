@@ -39,9 +39,11 @@ print(f"Your password is {password}")
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 
 password_list = []
+# print(type(password_list))
 for char in range (1 , nr_letters+1):
     # password += random.choice(letters)
     random_char = random.choice(letters)
+    
     password_list +=random_char
 # print(password)
 
